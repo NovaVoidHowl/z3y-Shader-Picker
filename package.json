@@ -4,6 +4,9 @@
     "name": "NovaVoidHowl",
     "url": "https://novavoidhowl.uk/"
   },
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.1.0"
+  },
   "description": "Simple shader version picker for z3y shaders, to help you pick the right shader release for your Unity project.",
   "displayName": "z3y shader version picker",
   "keywords": [
@@ -12,5 +15,5 @@
   ],
   "name": "com.novavoidhowl.z3y-shader-picker",
   "unity": "2019.4",
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
