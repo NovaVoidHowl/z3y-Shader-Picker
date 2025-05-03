@@ -1,0 +1,29 @@
+{
+  "compatibilityList": [
+    {
+      "NoPackage": false,
+      "SupportedUnityVersionsRange": "2022.3",
+      "shaderVersionRangeMax": "N/A",
+      "shaderVersionRangeMin": "2.0.0"
+    },
+    {
+      "NoPackage": false,
+      "SupportedUnityVersionsRange": "2021.3",
+      "shaderVersionRangeMax": "3.3.1",
+      "shaderVersionRangeMin": "2.0.0"
+    },
+    {
+      "NoPackage": false,
+      "SupportedUnityVersionsRange": "2019.4",
+      "shaderVersionRangeMax": "2.4.2",
+      "shaderVersionRangeMin": "2.0.0"
+    },
+    {
+      "NoPackage": true,
+      "SupportedUnityVersionsRange": "N/A",
+      "shaderVersionRangeMax": "1.9.0",
+      "shaderVersionRangeMin": "1.0.0"
+    }
+  ],
+  "info": "This file is used to specify the shader version and Unity version compatibility for the shader."
+}

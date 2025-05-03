@@ -1,0 +1,265 @@
+.root-container {
+  padding: 10px;
+  flex-grow: 1;
+}
+
+.content-container {
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.shader-icon {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 10px;
+  background-image: resource("Shader Icon");
+}
+
+.info-box {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  border-width: 1px;
+  border-color: rgba(100, 100, 100, 0.5);
+  border-radius: 5px;
+  background-color: rgba(40, 40, 40, 0.3);
+}
+
+.compatibility-box {
+  margin-top: 5px;
+}
+
+.status-indicator {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 12px;
+  border-radius: 4px;
+  margin: 5px auto;
+  width: 220px;
+  min-height: 32px;
+}
+
+.status-compatible {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  -unity-font-style: bold;
+}
+
+.status-incompatible {
+  background-color: #F44336; /* Red */
+  color: white;
+  -unity-font-style: bold;
+}
+
+.status-unknown {
+  background-color: #9E9E9E; /* Gray */
+  color: white;
+  -unity-font-style: bold;
+}
+
+.status-checking {
+  background-color: #2196F3; /* Blue */
+  color: white;
+  -unity-font-style: bold;
+}
+
+.status-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  -unity-background-scale-mode: scale-to-fit;
+}
+
+.tick-icon {
+  background-image: url('project://database/Packages/com.novavoidhowl.z3y-shader-picker/Assets/Resources/z3ysp/icons/tick.png');
+}
+
+.warning-icon {
+  background-image: url('project://database/Packages/com.novavoidhowl.z3y-shader-picker/Assets/Resources/z3ysp/icons/cross.png');
+}
+
+.question-icon {
+  background-image: url('project://database/Packages/com.novavoidhowl.z3y-shader-picker/Assets/Resources/z3ysp/icons/question-mark.png');
+}
+
+.spinner-icon {
+  background-image: url('project://database/Packages/com.novavoidhowl.z3y-shader-picker/Assets/Resources/z3ysp/icons/spinner-loading-dots.png');
+}
+
+.info-label {
+  -unity-font-style: bold;
+  margin-bottom: 5px;
+}
+
+.version-text {
+  font-size: 16px;
+  margin-top: 5px;
+  color: #4ec9b0;
+  -unity-text-align: middle-center;
+  white-space: normal;
+  width: 100%;
+}
+.status-text {
+  font-size: 12px;
+  color: #4ec9b0;
+  -unity-text-align: middle-center;
+  white-space: normal;
+  width: 100%;
+}
+
+.check-button {
+  height: 30px;
+  width: 120px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  align-self: center;
+}
+
+.version-selection-box {
+  margin-top: 15px;
+}
+
+.button-container {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.install-button {
+  height: 30px;
+  width: 180px;
+  margin-right: 5px;
+}
+
+.view-release-button {
+  height: 30px;
+  width: 180px;
+  margin-left: 5px;
+  background-color: #3b5998;
+}
+
+.view-release-button:hover {
+  background-color: #4d70ba;
+}
+
+.version-desc-text {
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #C0C0C0;
+  -unity-text-align: middle-left;
+  white-space: normal;
+  width: 100%;
+  max-height: 60px;
+  overflow: hidden;
+}
+
+.footer {
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  align-items: center;
+}
+
+.api-settings-container {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  flex-direction: row;
+  margin-top: 2px;
+  align-items: center;
+}
+
+.api-settings-label {
+  font-size: 10px;
+  margin-right: 5px;
+  color: rgba(200, 200, 200, 0.8);
+}
+
+.custom-toggle-container {
+  width: 40px;
+  height: 20px;
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: rgba(43, 43, 43, 0.8);
+  overflow: hidden;
+  position: relative;
+}
+
+.custom-toggle-on {
+  background-color: #4285F4;
+}
+
+.custom-toggle-thumb {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  top: 2px;
+  left: 2px;
+}
+
+.custom-toggle-on .custom-toggle-thumb {
+  left: 22px;
+}
+
+.footer-text {
+  font-size: 10px;
+  color: rgba(180, 180, 180, 0.7);
+  -unity-text-align: middle-center;
+}
+
+/* Added styles for docked settings window */
+.main-window-with-docked-settings {
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.main-content-container {
+  flex-grow: 1;
+  width: 450px;
+  max-width: 450px;
+  min-width: 450px;
+}
+
+.settings-panel-container {
+  width: 0;
+  overflow: hidden;
+  border-left-width: 1px;
+  border-left-color: rgba(230, 230, 230, 0.5);
+  background-color: rgba(40, 40, 40, 0.3);
+  transition: width 0.2s ease-in-out;
+}
+
+.settings-panel-visible {
+  width: 400px;
+  min-width: 400px;
+  max-width: 400px;
+  overflow: visible;
+}
+
+/* Style for incompatible dropdown options */
+.incompatible-version {
+  color: rgba(180, 180, 180, 0.5);
+  -unity-font-style: italic;
+}
+
+/* Style for compatible dropdown options */
+.compatible-version {
+  color: white;
+  -unity-font-style: normal;
+}
+
+/* Style for the selected dropdown version */
+.selected-dropdown-version {
+  color: white;
+  -unity-font-style: bold;
+}

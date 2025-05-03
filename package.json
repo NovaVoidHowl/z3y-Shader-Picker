@@ -1,0 +1,16 @@
+{
+  "author": {
+    "email": "me@novavoidhowl.com",
+    "name": "NovaVoidHowl",
+    "url": "https://novavoidhowl.uk/"
+  },
+  "description": "Simple shader version picker for z3y shaders, to help you pick the right shader release for your Unity project.",
+  "displayName": "z3y shader version picker",
+  "keywords": [
+    "z3y",
+    "shader"
+  ],
+  "name": "com.novavoidhowl.z3y-shader-picker",
+  "unity": "2019.4",
+  "version": "1.0.0"
+}

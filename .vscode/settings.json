@@ -1,0 +1,30 @@
+{
+  "cSpell.enabledFileTypes": {
+    "UnityUSS": true,
+    "UnityUXML": true
+  },
+  "cSpell.words": [
+    "Newtonsoft",
+    "novavoidhowl",
+    "Prefs",
+    "scim",
+    "UXML",
+    "versionsupport",
+    "yshaderpicker",
+    "zipball"
+  ],
+  "colorize.hide_current_line_decorations": false,
+  "colorize.languages": [
+    "UnityUSS"
+  ],
+  "editor.detectIndentation": false,
+  "editor.insertSpaces": true,
+  "editor.rulers": [
+    120
+  ],
+  "editor.tabSize": 2,
+  "files.associations": {
+    "*.uss": "css",
+    "*.uxml": "xml"
+  }
+}

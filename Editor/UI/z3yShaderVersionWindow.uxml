@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="UnityEngine.UIElements"
+  xmlns:editor="UnityEditor.UIElements"
+  xsi:noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd">
+
+  <VisualElement name="root-container" class="root-container">
+
+    <VisualElement class="content-container">
+      <Image name="shader-icon" class="shader-icon" />
+
+      <Box class="info-box">
+        <Label text="Current Versions:" class="info-label" />
+        <Label name="version-info" text="Checking..." class="version-text" />
+      </Box>
+
+      <Box class="info-box compatibility-box">
+        <Label text="Compatibility Status:" class="info-label" />
+
+        <!-- Single status indicator that we'll update dynamically -->
+        <VisualElement name="status-indicator" class="status-indicator status-checking">
+          <VisualElement name="status-icon" class="status-icon question-icon" />
+          <Label name="status-text" text="Checking..." />
+        </VisualElement>
+
+        <!-- For additional message under the status indicator -->
+        <Label name="compatibility-message" text="" class="status-text" style="display: none;" />
+      </Box>
+
+      <!-- New version selection section -->
+      <Box class="info-box version-selection-box">
+        <Label text="Available z3y Shader Versions:" class="info-label" />
+        <DropdownField name="version-dropdown" />
+        <Label name="version-description" text="" class="version-desc-text" />
+        <VisualElement class="button-container">
+          <Button name="install-button" text="Install Selected Version" class="install-button" />
+          <Button name="view-release-button" text="Show Full Release Info" class="view-release-button" />
+        </VisualElement>
+        <Label name="install-status" text="" class="status-text" style="display: none;" />
+      </Box>
+
+      <Button name="check-button" text="Refresh" class="check-button" />
+
+      <VisualElement class="footer">
+        <Label name="footer-text" text="z3y Shader Version Picker by NovaVoidHowl"
+          class="footer-text" />
+      </VisualElement>
+    </VisualElement>
+  </VisualElement>
+
+</UXML>
