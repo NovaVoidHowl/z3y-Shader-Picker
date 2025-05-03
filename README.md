@@ -71,7 +71,7 @@ Currently has compatibility info for unity versions
 >[!caution]
 > While the application has info on 2019 compatibility it itself is not compatible with that version of unity the oldest
 >version it has been tested on is 2021.3\
-> you can directly view the compatibility lists [here](Assets\Resources\z3ysp\versionsupport.json)
+> you can directly view the z3y shader compatibility lists [here](Assets\Resources\z3ysp\versionsupport.json)
 
 > [!note]
 > Options 1 and 2 require that you have git installed on your system\
