@@ -59,7 +59,7 @@ Currently has compatibility info for unity versions
 - 2021.3
 - 2019.4
 
-> [!note] Info
+> [!note]
 > Link to the z3y shader repo <https://github.com/z3y/shaders>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
