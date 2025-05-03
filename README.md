@@ -39,6 +39,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
     </li>
+    <li><a href="#installation">Installation</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact-and-links">Contact and Links</a></li>
@@ -60,6 +61,53 @@ Currently has compatibility info for unity versions
 
 > \[!note\]Info
 > Link to the z3y shader repo <https://github.com/z3y/shaders>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- INSTALLATION -->
+
+## Installation
+
+> [!note]
+> Options 1 and 2 require that you have git installed on your system\
+> See the following links for installer links:\
+> [Windows](https://git-scm.com/downloads/win)\
+> [Mac](https://git-scm.com/downloads/mac)\
+> [Linux](https://git-scm.com/downloads/linux)
+
+To install this package in your Unity project, follow these steps:
+
+### Method 1: Using Unity Package Manager (Recommended)
+
+1. Open your Unity project
+2. Go to `Window > Package Manager`
+3. Click the `+` button in the top-left corner
+4. Select `Add package from git URL...`
+5. Enter the following URL:
+
+   ```text
+   https://github.com/NovaVoidHowl/z3y-Shader-Picker.git
+   ```
+
+6. Click `Add`
+
+### Method 2: Manual Installation via Git
+
+1. Open your Unity project folder
+2. Navigate to the `Packages` folder
+3. Clone the repository:
+
+   ```text
+   git clone https://github.com/NovaVoidHowl/z3y-Shader-Picker.git com.novavoidhowl.z3y-shader-picker
+   ```
+
+### Method 3: Download and Install
+
+1. Go to the [releases page](https://github.com/NovaVoidHowl/z3y-Shader-Picker/releases)
+2. Download the latest release
+3. Extract the contents into your project's `Packages` folder
+
+After installation, you can access the tool from the Unity menu under `NVH > z3y Shaders > Version Picker`.s
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

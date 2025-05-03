@@ -138,7 +138,7 @@ namespace novavoidhowl.z3yshaderpicker
     // Add delegate variable for api status updates
     private EditorApplication.CallbackFunction updateApiStatusDelegate;
 
-    [MenuItem("NVH/z3y Shaders/Version Checker")]
+    [MenuItem("NVH/z3y Shaders/Version Picker")]
     public static void ShowWindow()
     {
       // Create a standalone window with OS title bar by using GetWindowWithRect and setting utility flag to true
